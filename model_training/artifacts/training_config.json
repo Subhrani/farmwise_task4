@@ -1,0 +1,41 @@
+{
+  "random_seed": 42,
+  "backbone": "resnet18",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_epochs": 50,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "momentum": 0.9,
+  "crop_weight": 1.0,
+  "stage_weight": 1.0,
+  "dropout_rate": 0.5,
+  "freeze_backbone": true,
+  "freeze_backbone_epochs": 5,
+  "train_samples": 2234,
+  "val_samples": 473,
+  "test_samples": 486,
+  "num_crop_classes": 12,
+  "num_stage_classes": 5,
+  "crop_weights": [
+    4.1370368003845215,
+    93.08333587646484,
+    0.5185701251029968,
+    93.08333587646484,
+    93.08333587646484,
+    93.08333587646484,
+    1.7562893629074097,
+    186.1666717529297,
+    93.08333587646484,
+    0.11449364572763443,
+    93.08333587646484,
+    2.1901960372924805
+  ],
+  "stage_weights": [
+    20.309091567993164,
+    0.6456647515296936,
+    15.406896591186523,
+    12.411110877990723,
+    0.3070790469646454
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "random_seed": 42,
+  "train_images": 2230,
+  "validation_images": 478,
+  "test_images": 485,
+  "excluded_images": 69,
+  "total_images": 3262,
+  "train_percentage": "69.84%",
+  "validation_percentage": "14.97%",
+  "test_percentage": "15.19%",
+  "crop_classes": [
+    "Banana",
+    "Cassava",
+    "Coconut",
+    "Diploid Cotton (Paruththi)",
+    "Fodder Sorghum",
+    "Groundnut",
+    "Maize",
+    "Marigold",
+    "Rice (Paddy)",
+    "Sorghum",
+    "Sugarcane"
+  ],
+  "stage_classes": [
+    "flowering",
+    "full_growth",
+    "harvesting",
+    "sown",
+    "vegetation"
+  ],
+  "crop_distribution": {
+    "train": {
+      "Rice (Paddy)": 1626,
+      "Coconut": 359,
+      "Banana": 45,
+      "Maize": 106,
+      "Sugarcane": 85,
+      "Cassava": 2,
+      "Sorghum": 2,
+      "Marigold": 2,
+      "Fodder Sorghum": 1,
+      "Groundnut": 1,
+      "Diploid Cotton (Paruththi)": 1
+    },
+    "validation": {
+      "Rice (Paddy)": 349,
+      "Coconut": 77,
+      "Maize": 23,
+      "Banana": 10,
+      "Sugarcane": 18,
+      "Sorghum": 1
+    },
+    "test": {
+      "Rice (Paddy)": 349,
+      "Coconut": 77,
+      "Sugarcane": 19,
+      "Fodder Sorghum": 1,
+      "Banana": 10,
+      "Maize": 23,
+      "Diploid Cotton (Paruththi)": 1,
+      "Marigold": 1,
+      "Cassava": 1,
+      "Groundnut": 1,
+      "Sorghum": 1,
+      "Mango": 1
+    }
+  },
+  "stage_distribution": {
+    "train": {
+      "vegetation": 1454,
+      "full_growth": 690,
+      "sown": 36,
+      "harvesting": 29,
+      "flowering": 21
+    },
+    "validation": {
+      "vegetation": 312,
+      "full_growth": 151,
+      "harvesting": 6,
+      "sown": 8,
+      "flowering": 1
+    },
+    "test": {
+      "vegetation": 327,
+      "full_growth": 144,
+      "flowering": 5,
+      "sown": 6,
+      "harvesting": 3
+    }
+  }
+}

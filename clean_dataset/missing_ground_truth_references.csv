@@ -1,0 +1,3 @@
+gt_reference,candidate_image_files,candidate_count,status,reason
+341b59f7243d4aff-43633-11302453414155,,0,NO_CORRESPONDING_IMAGE,Ground Truth reference has no matching image file
+00b38c78-9ef3-4568-b254-eb895b6b629f933533_266_58_,,0,NO_CORRESPONDING_IMAGE,Ground Truth reference has no matching image file

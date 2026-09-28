@@ -1,0 +1,23 @@
+{
+  "crop_classes": [
+    "Banana",
+    "Cassava",
+    "Coconut",
+    "Diploid Cotton (Paruththi)",
+    "Fodder Sorghum",
+    "Groundnut",
+    "Maize",
+    "Mango",
+    "Marigold",
+    "Rice (Paddy)",
+    "Sorghum",
+    "Sugarcane"
+  ],
+  "stage_classes": [
+    "flowering",
+    "full_growth",
+    "harvesting",
+    "sown",
+    "vegetation"
+  ]
+}

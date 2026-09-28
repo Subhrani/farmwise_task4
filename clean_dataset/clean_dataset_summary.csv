@@ -1,0 +1,26 @@
+metric,value
+original_images,3421
+duplicate_images_excluded,129
+conflicting_duplicate_images_excluded,2
+stage_conflict_images_excluded,8
+missing_gt_references,2
+final_clean_images,3262
+clean_crop_classes,12
+clean_stage_classes,5
+crop_Banana,65
+crop_Cassava,3
+crop_Coconut,513
+crop_Diploid Cotton (Paruththi),2
+crop_Fodder Sorghum,2
+crop_Groundnut,2
+crop_Maize,152
+crop_Mango,1
+crop_Marigold,3
+crop_Rice (Paddy),2324
+crop_Sorghum,4
+crop_Sugarcane,122
+stage_flowering,27
+stage_full_growth,985
+stage_harvesting,38
+stage_sown,50
+stage_vegetation,2093
